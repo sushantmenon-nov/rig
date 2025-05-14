@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize Oracle client
-oracle_client_path = "/root/rig/instantclient-basic-linux.x64-23.8.0.25.04/instantclient_23_8"
+oracle_client_path = "/home/ec2-user/rig/instantclient-basic-linux.x64-23.8.0.25.04/instantclient_23_8/"
 oracledb.init_oracle_client(lib_dir=oracle_client_path)
 
 def create_connection():
